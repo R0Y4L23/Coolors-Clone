@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -11,6 +14,39 @@ a {
   text-decoration: none;
 }
 
+.alfa {
+  font-family: 'Alfa Slab One', cursive;
+}
+
 * {
   box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.st01 {
+  fill: #9B5DE5;
+}
+
+.st11 {
+  fill: #F15BB5;
+}
+
+.st21 {
+  fill: #FEE440;
+}
+
+.st31 {
+  fill: #00BBF9;
+}
+
+.st41 {
+  fill: #00F5D4;
+}
+
+.st51 {
+  fill: #C9C8CC;
 }
